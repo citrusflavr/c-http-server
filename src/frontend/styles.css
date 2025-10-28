@@ -3,6 +3,7 @@ p{
     border-width: 2px; 
     border-color: black;   
 } 
+
 .vertical-line {
   border-left: 6px black;
   height: 500px;
@@ -51,9 +52,6 @@ button {
     margin-right: 10px !important; 
     margin-left: 210px !important;
     min-height:  500px!important; 
-    
-  
-
 }
 .jumbotron *{
   border: 0 !important;
