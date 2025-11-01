@@ -23,13 +23,13 @@ p{
     width: 150px; 
     height: 35px; 
     border-radius: 12px !important;
-    border-color:lightblue;
+    border-color:darkgray;
     box-shadow:0 0;
-    margin-left:20px;
+    align-self:center;
 }
 
 body {
-    background-color:rgb(39, 31, 90);
+    background-color:rgb(23, 18, 56);
 }
 button {
     background-color:rgb(86, 82, 112) !important;
@@ -58,6 +58,10 @@ button {
   outline: 0 !important;
   box-shadow: none !important; 
 }
-
-
-
+.accordion-styles{
+    border-color:rgb(86, 82, 112);
+    color:white !important;
+}
+.roundedaccordion {
+    border-radius:10px;
+}
