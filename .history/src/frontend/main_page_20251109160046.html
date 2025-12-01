@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title> Learning Center </title>
+		<!-- Include Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<!-- Include Bootstrap JS -->
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		<link href = "styles.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<nav class="navbar navbar-expand-lg bg-body-tertiary">
+		<div class="container-fluid">
+			<a class="navbar-brand" style="color:white; block-size: 75px !important; font-size:50px; font-weight:600;" href="front_page.html">Prepify</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation" >
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="vertical-line"></div>
+			<div class="collapse navbar-collapse" id="navbarText">
+			</div>
+			<a style="font-size:25px;display:flex;justify-content:center;align-items:center;text-align:center; border-width: 3px; border-radius: 15px; height:60px; width:150px; color:white; background-color:rgb(86, 82, 112) !important;" class=btn btn-primary btn-lg" href="contributers.html" role="button">Contributers</a>
+		</div>
+		</nav>	
+		<hr style="color:black; height:10px; margin-top:-5px;">
+				
+		<div class="d-flex p-2 bd-highlight">
+			<div class="p-2 bd-highlight">
+				<div style="flex:1;"class="btn-group-vertical" role="group" aria-label="Vertical button group"> 
+					<div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+						<button style="width:200px; height:50px; border-radius:12px;" type="button" class="btn btn-primary" >Math</button>
+						<button class="side-button">Calculus I</button>
+						<button class="side-button">Calculus II</button>
+						<button class="side-button">Statistics</button>
+					</div>
+					<div style="margin-top:20px;" class="btn-group-vertical" role="group" aria-label="Vertical button group">
+						<button style="width:200px; height:50px; border-radius:12px;" type="button" class="btn btn-primary">History</button>
+						<button class="side-button">United States</button>
+						<button class="side-button">European</button>
+						<button class="side-button">Environmental</button>
+						
+					</div>
+					<div style="margin-top:20px;" class="btn-group-vertical" role="group" aria-label="Vertical button group">
+						<button style="width:200px; height:50px; border-radius:12px;" type="button" class="btn btn-primary">Coding Languages</button>
+						<button class="side-button">Python</button>
+						<button class="side-button">C++</button>
+						<button class="side-button">Java</button>
+					</div>
+				</div>
+			</div>
+			<div class="p-2 flex-grow-1 bd-highlight">
+				<div style="flex:3; " class="accordion" id="accordionExample">
+					<div style="background-color:white; " class="accordion-style" class="accordion-item">
+						<h2 class="accordion-header">
+						<button style="color:white; border-color:gray;height:50px; "class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
+							Math
+						</button>
+						</h2>
+						<div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse">
+						<div class="accordion-body">
+							<strong>Calculus I</strong> <br>Calculus is the sequel to the Pre-Calculus class and is usually necessary for a majority of the majors. If it is not required, it is sometimes advised to take the class regardless to learn of the concepts taught. You will learn advanced derivation and basic integration.  <br><a href="https://www.khanacademy.org/math/calculus-1">Khan Academy</a>
+							<br> <strong>Calculus II</strong><br>Caculus II is the 2nd part of the Calculus sequence and is an advanced version of Calculus I. While they have similarities, Calculus II goes deeper into the topics and their applications. Integration has a heavy focus here. <br> <a href="https://www.youtube.com/playlist?list=PLDesaqWTN6EQ2J4vgsN1HyBeRADEh4Cw-">Professor Leonard's playlist</a> <br> <a href="https://www.khanacademy.org/math/calculus-2">Khan Academy</a>
+							<br> <strong>Statistics</strong><br>Statistics is the understanding and analysis of data. With it, you can recognize all kinds of statistics that are used everyday. Some topics include binominal distribution, probability, and hypothesis testing. <br><a href="https://www.youtube.com/playlist?list=PLblh5JKOoLUK0FLuzwntyYI10UQFUhsY9">Josh Starmer's Playlist</a> <br><a href="https://www.khanacademy.org/math/statistics-probability">Khan Academy</a>
+						</div>
+						</div>
+					</div>
+					<div style="background-color:white;"class="accordion-style" class="accordion-item">
+						<h2 class="accordion-header">
+						<button style="color:white;" class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+							History
+						</button>
+						</h2>
+						<div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+						<div class="accordion-body">
+							<strong>US History</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+						</div>
+						</div>
+					</div>
+					<div style="background-color:white;"class="accordion-style" class="accordion-item">
+						<h2 class="accordion-header">
+						<button style="color:white;" class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+							Coding Languages
+						</button>
+						</h2>
+						<div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+						<div class="accordion-body">
+							<strong>This is the third item’s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
